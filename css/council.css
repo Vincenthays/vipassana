@@ -9,6 +9,19 @@ section {
     justify-content: space-around;
 }
 
+.section-team-title {
+    width: 100%;
+    display: flex;
+}
+
+.section-team-title > div {
+    margin: auto;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    margin-bottom: 30px;
+}
+
 .section-team-member {
     padding: 10px;
 }
