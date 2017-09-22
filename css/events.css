@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* max-width: 1000px; */
+    margin: auto;
+}
+
+.section-card {
+    margin: 10px;
+    height: 400px;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.section-card-image {
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-card-content {
+    flex: 1;
+    padding: 10px;
+}
