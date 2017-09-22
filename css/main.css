@@ -13,6 +13,7 @@ html, body, #main-wrapper {
 main {
     flex: 1;
     display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 1000px) {
