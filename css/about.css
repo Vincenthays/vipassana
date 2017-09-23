@@ -39,4 +39,5 @@ section {
 
 #mainbg{
   background-image:url(../img/AboutUs.png);
+  background-size:auto;
 }
