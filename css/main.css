@@ -1,0 +1,31 @@
+html, body, #main-wrapper {
+    min-height: 100vh;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF9DB;
+}
+
+#main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+section {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
