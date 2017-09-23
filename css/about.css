@@ -4,8 +4,8 @@ section {
 
 .section-card {
     margin: auto;
-    height: 450px;
-    width: 40vh;
+    height: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -13,7 +13,7 @@ section {
 }
 
 .section-card-image {
-    height: 30vh;
+    height: 220px;
     background-position: center;
     width: 100%;
     background-repeat: no-repeat;

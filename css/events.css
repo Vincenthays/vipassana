@@ -9,7 +9,7 @@ section {
 .section-card {
     margin: 10px;
     height: 400px;
-    width: 40vh;
+    width: 300px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -17,7 +17,7 @@ section {
 }
 
 .section-card-image {
-    height: 30vh;
+    height: 220px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
