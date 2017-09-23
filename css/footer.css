@@ -1,0 +1,36 @@
+footer {
+    min-height: 100px;
+    border-top: 2px solid #F5DC74;
+    background-color: #FAEEBB;
+    margin-top: 20px;
+    display: flex;
+    padding: 5px 35px;
+}
+
+@media (max-width: 550px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+.footer-row {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-row > * {
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+/* .footer-row > div:hover, */
+.footer-row a:hover {
+    color: #dd8c00;
+}
