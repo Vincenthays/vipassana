@@ -96,14 +96,8 @@ aside {
 }
 
 .section-content {
-    margin-top: 30px;
+    margin: 0px;
     flex: 1;
-    padding: 10px;
-    display: flex;
-}
-
-.section-content {
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

@@ -24,11 +24,14 @@ section {
 
 .section-team-member {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-team-member-image {
-    height: 30vh;
-    width: 30vh;
+    margin: 0px auto;
+    height: 230px;
+    width: 230px;
     border-radius: 50%;
     border: 3px solid #f5dc74;
     background-position: center;
