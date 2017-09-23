@@ -34,9 +34,23 @@ section {
     width: 230px;
     border-radius: 50%;
     border: 3px solid #f5dc74;
+    overflow: hidden;
+    display: flex;
+}
+
+.section-team-member-image > div {
+    margin: auto;
+    height: 100%;
+    width: 100%; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+.section-team-member-image > div:hover {
+    height: 110%;
+    width: 110%;
 }
 
 .section-team-member-content {
@@ -70,4 +84,9 @@ section {
 
 .section-team-member-content-details > a > i {
     margin: auto;
+    transition: 1s;
+}
+
+.section-team-member-content-details > a > i:hover {
+    transform:rotate(360deg);
 }
