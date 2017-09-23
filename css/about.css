@@ -36,3 +36,7 @@ section {
     text-align:justify;
     flex: 2;
 }
+
+#mainbg{
+  background-image:url(../img/mainbg.jpg);
+}

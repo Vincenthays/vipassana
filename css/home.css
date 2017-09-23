@@ -185,3 +185,28 @@ aside {
 .section-content-news-title > div > div {
     margin: auto;
 }
+
+#mainbg{
+  background-image:url(../img/mainbg.jpg);
+}
+#smallBuddha{
+  background-image:url(../img/smallBuddha.png);
+}
+#zenGarden{
+  background-image:url(../img/zenGarden.jpg);
+}
+#macroBuddha{
+  background-image:url(../img/macroBuddha.jpg);
+}
+#buddhaGarden{
+  background-image:url(../img/buddhaGarden.jpg);
+}
+#seaMeditation{
+  background-image:url(../img/seaMeditation.jpg);
+}
+#temple{
+  background-image:url(../img/temple.jpg);
+}
+#mountainMeditation{
+  background-image:url(../img/mountainMeditation.jpg);
+}
