@@ -56,16 +56,3 @@ section {
     padding-top: 10px;
     flex: 2;
 }
-
-#buddhaGarden{
-  background-image:url(../img/buddhaGarden.jpg);
-}
-#seaMeditation{
-  background-image:url(../img/seaMeditation.jpg);
-}
-#temple{
-  background-image:url(../img/temple.jpg);
-}
-#mountainMeditation{
-  background-image:url(../img/mountainMeditation.jpg);
-}
