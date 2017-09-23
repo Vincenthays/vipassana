@@ -16,7 +16,7 @@ aside {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans',sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
     margin: 15px;
@@ -105,7 +105,7 @@ aside {
 
 .section-card-title {
     margin: auto;
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans',sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: #E7164A;
@@ -179,7 +179,7 @@ aside {
     background-color: white;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans',sans-serif;
 }
 
 .section-content-news-title > div > div {

@@ -18,7 +18,7 @@ section {
     margin: auto;
     font-size: 45px;
     font-weight: bold;
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans',sans-serif;
     margin-bottom: 30px;
 }
 
@@ -67,4 +67,24 @@ section {
 
 .section-team-member-content-details > a > i {
     margin: auto;
+}
+
+.fb,.tw,.in,.mail{
+  transition:.7s;
+}
+
+.fb:hover{
+  color:royalblue;
+}
+
+.tw:hover{
+  color:cyan;
+}
+
+.in:hover{
+  color:lightgreen;
+}
+
+.mail:hover{
+  color:lightsalmon;
 }

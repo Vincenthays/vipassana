@@ -5,7 +5,7 @@ section {
 .section-card {
     margin: auto;
     height: 400px;
-    width: 40vh;
+    width: 60vh;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -28,5 +28,11 @@ section {
     padding: 10px 0px;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans',sans-serif;
+}
+
+.section-card-content-description {
+    padding: 10px;
+    text-align:justify;
+    flex: 2;
 }

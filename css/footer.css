@@ -33,6 +33,10 @@ footer a {
     margin: 3px;
 }
 
+.footer-row a:hover {
+    transition: 0.7s;
+}
+
 .footer-row > div:hover,
 .footer-row a:hover {
     color: #dd8c00;
