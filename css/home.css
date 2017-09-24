@@ -35,7 +35,7 @@ aside {
     transition: 0.3s;
     margin: 10px 15px;
     display: flex;
-    background-color: white;
+    overflow: hidden;
 }
 
 .aside-card:hover {
@@ -53,15 +53,19 @@ aside {
 .aside-card-content {
     flex: 1;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.aside-card:hover .aside-card-content {
+    transform: translateY(-74px);
 }
 
 .aside-card-content-title {
     font-weight: bold;
     text-align: right;
-    margin-bottom: 20px;
-    flex: 1;
+    margin-bottom: 47px;
 }
 
 .aside-card-content-row {
