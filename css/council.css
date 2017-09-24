@@ -39,18 +39,16 @@ section {
 }
 
 .section-team-member-image > div {
-    margin: auto;
     height: 100%;
     width: 100%; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .section-team-member-image > div:hover {
-    height: 110%;
-    width: 110%;
+    transform: scale(1.2);
 }
 
 .section-team-member-content {
@@ -84,9 +82,12 @@ section {
 
 .section-team-member-content-details > a > i {
     margin: auto;
+}
+
+.section-team-member-content-details > a {
     transition: 1s;
 }
 
-.section-team-member-content-details > a > i:hover {
+.section-team-member-content-details > a:hover {
     transform: rotate(360deg);
 }
